@@ -21,11 +21,11 @@ Conjunto de APIs para manipulação de serviços da Amazon AWS, desenvolvido em 
 	**Rota:** /sqs/message
 	**Tipo do corpo da requisição:** JSON
 	**Corpo da requisição:** 
-	```json
-{
-    "message": "Teste"
-}
-```
+	~~~JSON
+    {
+        "message": "Teste"
+    }
+    ~~~
 
 - Buscar todas as mensagens
 	**Método:** GET
@@ -36,11 +36,11 @@ Conjunto de APIs para manipulação de serviços da Amazon AWS, desenvolvido em 
 	**Rota:** /sqs/message
 	**Tipo do corpo da requisição:** JSON
 	**Corpo da requisição:** 
-	```json
-{
-    "messageHandle": "Retorna ao buscar uma mensagem"
-}
-```
+	~~~json
+    {
+        "messageHandle": "Retorna ao buscar uma mensagem"
+    }
+    ~~~
 
 **S3:**
 
@@ -49,11 +49,11 @@ Conjunto de APIs para manipulação de serviços da Amazon AWS, desenvolvido em 
 	**Rota:** /s3/file
 	**Tipo do corpo da requisição:** Form-Data
 	**Corpo da requisição:**
-	```json
-{
-	file:"Arquivo"
-}
-```
+	~~~json
+    {
+	    "file":"Arquivo"
+    }
+    ~~~
 
 - Buscar arquivo
 	**Método:** GET
